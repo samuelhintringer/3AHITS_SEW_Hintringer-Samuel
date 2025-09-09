@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "4BHELS FSST Template/1.0.0": {
+        "runtime": {
+          "4BHELS FSST Template.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "4BHELS FSST Template/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
