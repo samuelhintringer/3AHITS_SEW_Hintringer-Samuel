@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4BHELS FSST Template")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58e0b55501c34643fb4f32e7956e0f1ee4101de2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65f8c9b201f1188cfbae472e8cdc9bd4ce759053")]
 [assembly: System.Reflection.AssemblyProductAttribute("4BHELS FSST Template")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4BHELS FSST Template")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
