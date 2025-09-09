@@ -9,7 +9,16 @@ Dokumentiere darin jede gemachte Übungsaufgabe, mit Angabe, Code und Konsolenau
 Erstelle ein C# Programm das `Hello World!` ausgibt.
 
 ```cs
-
+namespace MyApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
 ```
 
 ```
