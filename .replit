@@ -20,7 +20,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd \"4BHELS_FSST_Template\" && dotnet run"
+args = "dotnet run"
 
 [workflows.workflow.metadata]
 outputType = "console"
