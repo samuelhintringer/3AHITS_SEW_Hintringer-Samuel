@@ -14,7 +14,7 @@ Preferred communication style: Simple, everyday language.
 - **Build System**: MSBuild with PackageReference style project management
 
 ## Project Structure
-- **Main Project Directory**: `4BHELS_FSST_Template/` contains the C# console application
+- **Main Project Directory**: Root directory contains the C# console application
 - **Program Entry Point**: `Program.cs` contains the main application code that outputs "Hello, World!"
 - **Project Configuration**: `.csproj` file configured for .NET 8.0 console application
 - **Standard .NET Structure**: Follows conventional .NET project organization with `bin/`, `obj/`, and build output directories
