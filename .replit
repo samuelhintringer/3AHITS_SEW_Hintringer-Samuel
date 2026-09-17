@@ -26,4 +26,4 @@ args = "dotnet run"
 outputType = "console"
 
 [nix]
-packages = ["wget"]
+packages = ["wget", "vim"]
