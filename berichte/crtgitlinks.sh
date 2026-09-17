@@ -1,6 +1,5 @@
 #!/bin/bash
 
-cd ~/workspace
 {
     echo -e "# Arbeitsberichte" "\n"
     for file in 2*.md; do
