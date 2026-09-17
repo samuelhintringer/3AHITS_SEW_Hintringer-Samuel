@@ -12,3 +12,4 @@ cat << EOF > $(date +"%y%m%d").md
 - Source: $3
 EOF
 
+./update.sh
