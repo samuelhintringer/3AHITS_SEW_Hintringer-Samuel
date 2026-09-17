@@ -5,3 +5,5 @@ git add ~/workspace
 git stage ~/workspace
 
 git commit -m "update"
+
+git push
