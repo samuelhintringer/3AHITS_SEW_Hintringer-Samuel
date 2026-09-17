@@ -1,32 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+reponame="$(git config --get remote.origin.url | rev | cut -d/ -f1 | rev | cut -d. -f1)"
+link="https://samuelhintringer.github.io/$reponame/berichte/"
 
 {
-    echo -e "# Arbeitsberichte" "\n"
-    for file in 2*.md; do
-        basename=$(basename "$file" .md)
-
-        jahr="20${basename:0:2}"
-        monat="${basename:2:2}"
-        tag="${basename:4:2}"
-
-        echo "[Arbeitsbericht vom ${tag}.${monat}.${jahr}](berichte/${basename}.html)"
-        echo -e "\n"
-    done
-} > ReadMeLinks.tx
-
-{
-    echo -e "# Arbeitsberichte" "\n"
-    for file in 2*.md; do
-        basename=$(basename "$file" .md)
-
-        jahr="20${basename:0:2}"
-        monat="${basename:2:2}"
-        tag="${basename:4:2}"
-
-        echo "[Arbeitsbericht vom ${tag}.${monat}.${jahr}](berichte/${basename}.html)"
-        echo -e "\n"
-    done
-} > ../README.md
+for b in $(ls 2*.md)
+do
+    echo -e $link${b/md/html}"\n"
+done
+} > gitlinks.md
 
 sleep 5
 
