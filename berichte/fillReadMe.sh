@@ -12,7 +12,7 @@
         echo "[Arbeitsbericht vom ${tag}.${monat}.${jahr}](berichte/${basename}.html)"
         echo -e "\n"
     done
-} > ReadMeLinks.tx
+} > ReadMeLinks.md
 
 {
     echo -e "# Arbeitsberichte" "\n"
