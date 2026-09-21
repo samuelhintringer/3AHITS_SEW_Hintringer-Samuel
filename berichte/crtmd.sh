@@ -4,7 +4,7 @@ cat << EOF > $(date +"%y%m%d").md
 # Arbeitsbericht
 
 - Name: Samuel Hintringer
-- Fach: ITSI-Übunugen
+- Fach: SEW-Übunugen
 - Datum: $(date +"%d.%m.%Y")
 - Klasse: 2AHITS
 - Thema: $1
