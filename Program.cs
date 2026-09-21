@@ -1,6 +1,6 @@
 class Program
 {
-    static int Dop(int n);
+    static int Dop(int n)
     {
         return n * 2;
     }
