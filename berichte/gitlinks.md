@@ -2,3 +2,5 @@ https://samuelhintringer.github.io/3AHITS_SEW_Hintringer-Samuel/berichte/260916.
 
 https://samuelhintringer.github.io/3AHITS_SEW_Hintringer-Samuel/berichte/260921.html
 
+https://samuelhintringer.github.io/3AHITS_SEW_Hintringer-Samuel/berichte/261005.html
+
